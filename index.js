@@ -33,8 +33,8 @@ function viewCart() {
 
 
 function total() {
-  var totalMoney;
-  var incTotal;
+  var totalMoney = 0;
+  var incTotal = 0;
   for (var i = 0; i < cart.length; i++) {
     incTotal = incTotal + cart[i].itemPrice;
     totalMoney = totalMoney + incTotal;
