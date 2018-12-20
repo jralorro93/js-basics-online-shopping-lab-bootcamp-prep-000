@@ -21,10 +21,10 @@ function viewCart() {
       return "Your shopping cart is empty.";
       } 
     else if (cart.length === 1) {
-      return `In your cart, you have ${cart[0].itemName} at ${cart[0].`
+      return `In your cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}.`;
     }
       else if (cart.length === 2) {
-        return `In your cart, you have ${cart[0]}, and ${cart[1]}.`;
+        return `In your cart, you have ${cart[0.itemName]} at ${cart[0.itemPrice]}, and ${cart[1]}.`;
       } 
       else if (cart.length === 3) {
         return `In your cart, you have ${cart[0]}. ${cart[1]}, and ${cart[2]}.`;
