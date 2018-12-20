@@ -37,9 +37,8 @@ function total() {
   var incTotal = 0;
   for (var i = 0; i < cart.length; i++) {
     incTotal = incTotal + cart[i].itemPrice;
-    totalMoney = totalMoney + incTotal;
   }
-  return totalMoney;
+  return incTotal;
 }
 
 function removeFromCart(item) {
