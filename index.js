@@ -21,16 +21,19 @@ function viewCart() {
   while (i < cart.length) {
     if (cart.length === 1) {
       return `In your cart, you have ${cart[i]}`;
-    } 
+      } 
       else if (cart.length === 2) {
       return `In your cart, you have ${cart[0]}, and ${cart[1]}.`;
-    } 
+      } 
       else if (cart.length => 3) {
       return `In your cart, you have ${cart[0]}. ${cart[1]}, and ${cart[2]}.`;
+      }   
       else
-        return "Your shopping cart is empty."
+      {
+        return "Your shopping cart is empty.";
       }
     }
+    i++;
   }
 }
 
