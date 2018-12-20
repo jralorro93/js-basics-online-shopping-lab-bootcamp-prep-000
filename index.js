@@ -47,7 +47,7 @@ function removeFromCart(item) {
     }
     else if (item === cart[i].itemName) {
       cart.splice(i,1);
-      console.log(cart);
+      return cart;
     }
   }
 }
