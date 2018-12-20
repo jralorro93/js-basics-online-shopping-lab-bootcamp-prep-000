@@ -19,8 +19,11 @@ function addToCart(item) {
 function viewCart() {
   var i = 0;
   while (i < cart.length) {
-    i++;
-    if ()
+    if (cart.length === 1) {
+      return `In your cart, you have ${cart[i]}`
+      }
+    else if {
+    }
   }
 }
 
