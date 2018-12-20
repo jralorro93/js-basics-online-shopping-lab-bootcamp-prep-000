@@ -53,5 +53,8 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-  // write your code here
+  var grandTotal = 0;
+
+  if (cart.length > 0) {
+    
 }
