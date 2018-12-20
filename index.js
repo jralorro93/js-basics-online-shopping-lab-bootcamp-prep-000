@@ -20,12 +20,20 @@ function viewCart() {
   var i = 0;
   while (i < cart.length) {
     if (cart.length === 1) {
-      return `In your cart, you have ${cart[i]}`
+      return `In your cart, you have ${cart[i]}`;
+    } 
+      else if (cart.length === 2) {
+      return `In your cart, you have ${cart[0]}, and ${cart[1]}.`;
+    } 
+      else if (cart.length => 3) {
+      return `In your cart, you have ${cart[0]}. ${cart[1]}, and ${cart[2]}.`;
+      else
+        return "Your shopping cart is empty."
       }
-    else if {
     }
   }
 }
+
 
 function total() {
   // write your code here
