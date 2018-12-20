@@ -20,19 +20,15 @@ function viewCart() {
     if (cart.length === 0) {
       return "Your shopping cart is empty.";
       } 
-      else 
-        if (cart.length === 2) {
+      else if (cart.length === 2) {
         return `In your cart, you have ${cart[0]}, and ${cart[1]}.`;
-        } 
-          else 
-            if (cart.length === 3) {
-             return `In your cart, you have ${cart[0]}. ${cart[1]}, and ${cart[2]}.`;
+      } 
+      else if (cart.length === 3) {
+        return `In your cart, you have ${cart[0]}. ${cart[1]}, and ${cart[2]}.`;
               }   
-            else {
-              return "Your shopping cart is empty.";
+      else {
+        return "Your shopping cart is empty.";
             }
-    i++;
-   }
         
 }
 
