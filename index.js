@@ -34,6 +34,7 @@ function viewCart() {
 
 function total() {
   var totalMoney;
+  var incTotal;
   for (i = 0; i < cart.length; i++) {
     
   }
