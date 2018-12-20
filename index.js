@@ -53,8 +53,10 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-  var grandTotal = 0;
-
-  if (cart.length > 0) {
+  if (cardNumber === undefined) {
+    Return "Sorry, we don't have a credit card on file for you."
+  }
+  else {
+  }
     
 }
